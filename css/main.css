@@ -1,3 +1,13 @@
+
+
+/*==========================================*/
+/*  CONFIGURE ME                               */
+/*==========================================*/
+.nav-list li {
+    height: 33%;
+}
+/*==========================================*/
+
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,7 +38,6 @@ body {
     border: 0;
     font-size: 100%;
     font: inherit;
-    height: 33%;
     list-style: none;
     margin: 0;
     padding: 0;
