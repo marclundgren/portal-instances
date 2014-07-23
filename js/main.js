@@ -3,7 +3,7 @@
         var re = /\:\d+/,
             index = str.indexOf(str.match(re)),
             normalizedOrigin = str.substr(0, index);
-        return normalizedOrigin;
+        return (index > -1) ? normalizedOrigin : str;
     }
 
     var LOADING = 'loading',
