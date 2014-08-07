@@ -30,6 +30,7 @@
             var url = A.Lang.sub(TEMPLATE_URL, { port: item.getData('port') });
             console.log('url: ', url);
 
+            return;
             var service = new A.JSONPRequest(url, {
                 on: {
                     success: function() {
